@@ -6,6 +6,7 @@ This repository initiates the exploration of how news data and stock market tren
 ---
 
 ## 📁 Project Structure
+```
 News_driven_stock_analysis_week1/
 │
 ├── .vscode/
@@ -34,7 +35,7 @@ News_driven_stock_analysis_week1/
 └── scripts/
 ├── init.py
 └── README.md
-
+```
 
 ## 📓 Main Components
 
