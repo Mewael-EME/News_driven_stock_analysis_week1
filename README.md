@@ -1,54 +1,50 @@
-# News Driven Stock Analysis - Task 2
+# News Driven Stock Analysis – Task 3
 
-This branch (`task-2`) contains the developments for **Week 1, Task 2** of the News Driven Stock Analysis project, focusing on advanced quantitative analysis using Python libraries like **PyNance** and **TA-Lib**.
-
----
-
-## Overview
-
-Task 2 builds upon the foundational work done in Task 1 by incorporating additional financial data and implementing technical analysis indicators to deepen stock price insights.
+This branch (`task-3`) focuses on exploring the **correlation between news sentiment and stock price movements**. It builds on earlier tasks by introducing sentiment analysis and correlation techniques using Python, further expanding the project's quantitative and data-driven scope.
 
 ---
 
-## Main Features
+## 🌐 Objective
 
-- **Expanded Data Handling**  
-  Load and prepare comprehensive stock price datasets including Open, High, Low, Close, and Volume columns.
+To analyze how financial news sentiment influences stock price changes by:
 
-- **Technical Indicators with TA-Lib**  
-  Calculate and analyze moving averages (SMA, EMA), RSI, MACD, and other common indicators to better understand market trends.
-
-- **Financial Metrics Using PyNance**  
-  Integrate PyNance tools to compute additional financial metrics supporting quantitative stock analysis.
-
-- **Data Visualization**  
-  Create informative visualizations to explore stock trends and the effects of technical indicators.
-
-- **Code Modularization**  
-  Core analysis logic is modularized inside the `scripts/` folder, making the codebase maintainable and reusable.  
-  The Jupyter Notebook (`notebooks/task2_stock_analysis.ipynb`) uses these modules to perform the analysis and visualization.
+- Performing **sentiment analysis** on news data.
+- Aligning news with stock data to identify potential correlations.
+- Visualizing sentiment impact on stock behavior over time.
 
 ---
 
-## Repository Structure
+## 📁 Project Structure (Relevant to Task 3)
 /
 ├── notebooks/
-│ └── task2_stock_analysis.ipynb # Analysis notebook for Task 2
+│ └── task3_news_stock_correlation_analysis.ipynb # Main analysis notebook
 ├── scripts/
-│ └── task2_stock_analysis.py # Modular functions and classes for analysis
-├── README.md # This README file
+│ └── task3_news_stock_correlation.py # Modular functions for sentiment & correlation
+├── README.md # This README
 └── ...
 
-## How to Use
-
-1. Checkout the `task-2` branch.
-2. Install the required dependencies, including pandas, TA-Lib, PyNance, matplotlib, and others.
-3. Explore the notebook in the `notebooks/` folder to follow the step-by-step analysis.
-4. Review and modify the modular code in `scripts/task2_stock_analysis.py` if needed.
-5. Visualize and interpret stock market trends through calculated indicators.
 
 ---
-## Author
 
-Mewael Mizan Tesfay  
-[GitHub Profile](https://github.com/Mewael-EME)
+## 📌 Key Features
+
+- **Sentiment Analysis**: Apply tools like VADER or TextBlob to assess the polarity of news headlines or content.
+- **Data Synchronization**: Match sentiment timestamps with corresponding stock prices.
+- **Correlation Metrics**: Calculate Pearson, Spearman, or custom metrics to quantify relationships.
+- **Modular Code Design**: Core logic resides in the `scripts/` directory for reusability and clarity.
+- **Visualization**: Graphical representation of sentiment trends and price shifts to detect patterns.
+
+---
+
+## 🛠️ How to Run
+
+1. Clone the repository and switch to the `task-3` branch:
+   ```cmd
+   git checkout task-3
+
+2. Install dependencies: pip install -r requirements.txt
+3. Open and run the notebook:notebooks/task3_news_stock_correlation_analysis.ipynb
+4. Import and use functions from: scripts/task3_news_stock_correlation.py
+
+👨‍💻 Author
+Mewael Mizan Tesfay
