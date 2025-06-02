@@ -35,6 +35,7 @@ News_driven_stock_analysis_week1/
 ├── init.py
 └── README.md
 
+
 ## 📓 Main Components
 
 ### ✅ `notebooks/stock_market_analysis.ipynb`
