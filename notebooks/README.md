@@ -1,3 +1,8 @@
+
+# Task 3: News and Stock Correlation Analysis Notebook
+
+This Jupyter Notebook (`task3_news_stock_correlation_analysis.ipynb`) is part of the News Driven Stock Analysis project, focusing on analyzing the correlation between news sentiment and stock price movements.
+=======
 # Task 2: Quantitative Stock Analysis Notebook
 
 This Jupyter Notebook (`task2_stock_analysis.ipynb`) contains the **quantitative analysis** part of the News Driven Stock Analysis project for **Week 1, Task 2**.
@@ -5,7 +10,19 @@ This Jupyter Notebook (`task2_stock_analysis.ipynb`) contains the **quantitative
 ---
 
 ## Purpose
+- Load and preprocess news data alongside stock price data.
+- Perform sentiment analysis on news headlines or articles.
+- Analyze correlations between news sentiment scores and stock price changes.
+- Visualize findings to understand the impact of news on stock market behavior.
 
+---
+
+## Usage
+
+- Run all notebook cells sequentially to reproduce the analysis.
+- Ensure required dependencies (such as pandas, nltk, matplotlib, or any sentiment analysis libraries) are installed.
+- Modify data sources or parameters as needed for customized analysis.
+=======
 - Perform quantitative analysis on stock price data using **PyNance** and **TA-Lib**.
 - Calculate and visualize technical indicators such as Moving Averages, RSI, and MACD.
 - Use prepared and clean stock data loaded into pandas DataFrames.
@@ -30,7 +47,9 @@ This Jupyter Notebook (`task2_stock_analysis.ipynb`) contains the **quantitative
 ---
 
 ## Related Files
-
+- This notebook builds upon prior tasks focusing on stock data analysis.
+- Refer to the `scripts/` folder for any reusable functions or utilities supporting this analysis.
+=======
 - [`../script/`](../script) — Contains the modularized Python code (functions and classes) supporting this notebook.
 - [`task1_stock_analysis.ipynb`](./task1_stock_analysis.ipynb) — The previous task’s notebook with initial analysis steps.
 
@@ -38,6 +57,7 @@ This Jupyter Notebook (`task2_stock_analysis.ipynb`) contains the **quantitative
 
 **Author:** Mewael Mizan Tesfay  
 **GitHub:** [https://github.com/Mewael-EME](https://github.com/Mewael-EME)
+=======
 =======
 📈 News-Driven Stock Market Analysis – Week 1
 
