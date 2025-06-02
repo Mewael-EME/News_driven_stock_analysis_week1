@@ -73,7 +73,7 @@ This repository is part of a multi-stage project focused on analyzing how financ
 
 ---
 
-## 👤 Author
+## Author
 
 **Mewael Mizan Tesfay**  
 [GitHub](https://github.com/Mewael-EME)
