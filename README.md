@@ -1,54 +1,83 @@
-# News Driven Stock Analysis - Task 2
+# 📰📈 News Driven Stock Analysis – Week 1
 
-This branch (`task-2`) contains the developments for **Week 1, Task 2** of the News Driven Stock Analysis project, focusing on advanced quantitative analysis using Python libraries like **PyNance** and **TA-Lib**.
-
----
-
-## Overview
-
-Task 2 builds upon the foundational work done in Task 1 by incorporating additional financial data and implementing technical analysis indicators to deepen stock price insights.
+This repository is part of a multi-stage project focused on analyzing how financial news affects stock price behavior. Using Python, finance APIs, sentiment analysis tools, and visualization libraries, the project evolves across tasks — from technical stock analysis to correlating news sentiment with market movement.
 
 ---
 
-## Main Features
+## ✅ Weekly Breakdown
 
-- **Expanded Data Handling**  
-  Load and prepare comprehensive stock price datasets including Open, High, Low, Close, and Volume columns.
+### 🔹 Task 1: Stock Data Loading & Visualization
+- Load historical stock price data.
+- Visualize Open, High, Low, Close, and Volume.
+- Basic moving averages (SMA/EMA).
 
-- **Technical Indicators with TA-Lib**  
-  Calculate and analyze moving averages (SMA, EMA), RSI, MACD, and other common indicators to better understand market trends.
-
-- **Financial Metrics Using PyNance**  
-  Integrate PyNance tools to compute additional financial metrics supporting quantitative stock analysis.
-
-- **Data Visualization**  
-  Create informative visualizations to explore stock trends and the effects of technical indicators.
-
-- **Code Modularization**  
-  Core analysis logic is modularized inside the `scripts/` folder, making the codebase maintainable and reusable.  
-  The Jupyter Notebook (`notebooks/task2_stock_analysis.ipynb`) uses these modules to perform the analysis and visualization.
+📁 Notebook: `notebooks/task1_stock_data_analysis.ipynb`  
+📁 Scripts: `scripts/task1_stock_functions.py`
 
 ---
 
-## Repository Structure
+### 🔹 Task 2: Technical Indicator Analysis
+- Apply **TA-Lib** to compute:
+  - Moving Averages
+  - RSI (Relative Strength Index)
+  - MACD (Moving Average Convergence Divergence)
+- Use **PyNance** for advanced metrics.
+- Modularize code into reusable functions and classes.
+
+📁 Notebook: `notebooks/task2_stock_analysis.ipynb`  
+📁 Scripts: `scripts/task2_stock_analysis.py`
+
+---
+
+### 🔹 Task 3: News Sentiment & Stock Correlation
+- Scrape or load financial news headlines.
+- Apply **sentiment analysis** (e.g., VADER/TextBlob).
+- Synchronize sentiment with stock data.
+- Compute correlation coefficients (Pearson, Spearman).
+- Visualize insights.
+
+📁 Notebook: `notebooks/task3_news_stock_correlation_analysis.ipynb`  
+📁 Scripts: `scripts/task3_news_stock_correlation.py`
+
+---
+
+## 🗂️ Project Structure
+```
 /
-├── notebooks/
-│ └── task2_stock_analysis.ipynb # Analysis notebook for Task 2
-├── scripts/
-│ └── task2_stock_analysis.py # Modular functions and classes for analysis
-├── README.md # This README file
-└── ...
+├── notebooks/ # Jupyter notebooks for each task
+├── scripts/ # Python modules with reusable functions and classes
+├── data/ # Raw or cleaned stock/news data (if available)
+├── README.md # Project overview
+└── requirements.txt # List of dependencies
+```
 
-## How to Use
-
-1. Checkout the `task-2` branch.
-2. Install the required dependencies, including pandas, TA-Lib, PyNance, matplotlib, and others.
-3. Explore the notebook in the `notebooks/` folder to follow the step-by-step analysis.
-4. Review and modify the modular code in `scripts/task2_stock_analysis.py` if needed.
-5. Visualize and interpret stock market trends through calculated indicators.
 
 ---
-## Author
 
-Mewael Mizan Tesfay  
-[GitHub Profile](https://github.com/Mewael-EME)
+## 🧪 Tech Stack
+
+- **Python** (Pandas, Numpy, Matplotlib, Seaborn)
+- **TA-Lib** (Technical indicators)
+- **PyNance** (Finance analytics)
+- **NLTK / VADER / TextBlob** (Sentiment Analysis)
+- **Jupyter Notebooks**
+- **Git** (branching, PRs, version control)
+
+---
+
+## 🔑 Key Learning Outcomes
+
+- Hands-on stock market data analysis
+- Sentiment impact on financial data
+- Use of indicators for market prediction
+- Modular, reusable, and scalable code practices
+- Clear GitHub-based collaboration with commits, branches, and PRs
+
+---
+
+## 👤 Author
+
+**Mewael Mizan Tesfay**  
+[GitHub](https://github.com/Mewael-EME)
+
+---
