@@ -1,7 +1,7 @@
 # Task 3: News–Stock Correlation Script
 
 This Python script (`task3_news_stock_correlation.py`) contains reusable functions and logic for analyzing the relationship between news sentiment and stock price movement. It supports the notebook-based analysis in `task3_news_stock_correlation_analysis.ipynb`.
-=======
+---
 task-2
 # Task 2: Modular Stock Analysis Script
 ---
