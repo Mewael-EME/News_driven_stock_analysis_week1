@@ -1,3 +1,4 @@
+task-2
 # Task 2: Modular Stock Analysis Script
 
 This Python script (`task2_stock_analysis.py`) contains the core **functions and classes** used for quantitative stock analysis in **Week 1, Task 2** of the News Driven Stock Analysis project.
@@ -51,3 +52,29 @@ This Python script (`task2_stock_analysis.py`) contains the core **functions and
 
 **Author:** Mewael Mizan Tesfay  
 **GitHub:** [https://github.com/Mewael-EME](https://github.com/Mewael-EME)
+=======
+# 🗞️ News EDA Script – Week 1 - Task 1
+
+This script performs **Exploratory Data Analysis (EDA)** on news headline data as part of the Week 1 task for the News-Driven Stock Market Analysis Solar Challenge project.
+
+## 📄 Script - `scripts/news_eda.py`
+
+This script includes:
+- Reading and inspecting raw news data (CSV)
+- Handling missing or null values
+- Analyzing headline length, word count, and date distributions
+- Visualizing trends and patterns in the news dataset
+
+## 🔧 How to Run
+
+Make sure you have the required dataset (e.g., `news.csv`) in the appropriate folder.
+
+cmd
+python scripts/news_eda.py
+
+🛠️ Tools Used
+    - Python
+    - Pandas
+    - Matplotlib
+    - Seaborn
+
