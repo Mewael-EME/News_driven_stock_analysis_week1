@@ -42,14 +42,14 @@ This repository is part of a multi-stage project focused on analyzing how financ
 ---
 
 ## 🗂️ Project Structure
-
+```
 /
 ├── notebooks/ # Jupyter notebooks for each task
 ├── scripts/ # Python modules with reusable functions and classes
 ├── data/ # Raw or cleaned stock/news data (if available)
 ├── README.md # Project overview
 └── requirements.txt # List of dependencies
-
+```
 ---
 
 ## 🧪 Tech Stack
